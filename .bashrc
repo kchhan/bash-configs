@@ -8,7 +8,7 @@ reset=$(tput sgr0);
 PS1="\[${bold}\]";
 PS1+="\[${green}\]\u"; # name
 PS1+="\[${yellow}\]@\h: "; # hostname
-PS1+="\[${blue}\]\W "; # working directory
+PS1+="\[${blue}\]\w "; # path working directory
 PS1+="\[${reset}\]";
 export PS1;
 export BASH_SILENCE_DEPRECATION_WARNING=1;
